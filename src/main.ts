@@ -11,9 +11,7 @@ import { handlerUsersCreate, handlerUsersGet } from "./api/users.js";
 const __dirname = path.resolve();
 
 // TODO: remove me after eslint testing
-function unused() {
-
-}
+function unused() {}
 if (!config.api.port) {
   console.error("PORT environment variable is not set");
   process.exit(1);
